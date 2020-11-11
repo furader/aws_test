@@ -1,6 +1,18 @@
 branch-defaults:
   master:
-    environment: null
+    environment: first-test
     group_suffix: null
 global:
+  application_name: myApp - second
+  branch: null
+  default_ec2_keyname: packer_5d220225-297b-5f0c-f915-f9bb3f0d91f4
+  default_platform: Node.js 12 running on 64bit Amazon Linux 2
+  default_region: eu-central-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
   profile: null
+  repository: null
+  sc: git
+  workspace_type: Application
